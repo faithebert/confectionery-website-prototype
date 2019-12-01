@@ -7,6 +7,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.3 Georgia, serif;
+  background-color: #ffe9ff;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -25,6 +26,58 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 3rem;
+  text-shadow: 4px 1px #adadad;
+  color: #fff;
+  font-family: 'Cookie', cursive;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  text-align: left;
+  color: #bc5bb2;
+  padding: .5rem;
+  border-top: 2px solid #bc5bb2;
+}
+
+a {
+  text-decoration: none;
+  color: #bc5bb2;
+}
+
+nav ol:last-child {
+  border-bottom: 2px solid #bc5bb2;
+}
+
+.featured-image {
+  width: 50%;
+}
+
+.featured {
+  display: flex;
+  padding: 1rem;
+}
+
+.featured-content {
+  width: 50%;
+  padding-left: .5rem;
+}
+
+.featured-content h2 {
+  margin-top: 0;
 }
 
 @media only screen and (min-width: 25em) {
