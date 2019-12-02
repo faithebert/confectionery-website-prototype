@@ -105,6 +105,7 @@ a {
 
 .info li {
   padding: 1.5rem;
+  background-color: #fff3fe;
 }
 
 .button a {
@@ -228,11 +229,19 @@ footer ul {
     align-content: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: space-between;
   }
 
-  dl h2 {
+  dl li:first-child {
+    display: flex;
+  }
+
+  dl li:first-child p {
     margin-top: 0;
+  }
+
+  dl li:first-child h2 {
+    margin-bottom: 0;
   }
 
   dl li:last-child {
