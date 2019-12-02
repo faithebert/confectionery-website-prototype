@@ -32,6 +32,10 @@ header {
   text-align: center;
 }
 
+.banner {
+  display: none;
+}
+
 h1 {
   margin: 0 0 .5rem;
   font-size: 3rem;
@@ -48,9 +52,12 @@ h1 {
 
 .main-nav li {
   text-align: left;
-  color: #bc5bb2;
   padding: .5rem;
   border-top: 2px solid #bc5bb2;
+}
+
+.main-nav li:hover {
+  background-color: #fff;
 }
 
 a {
@@ -72,8 +79,8 @@ a {
 }
 
 .featured-content {
-  width: 50%;
-  padding-left: .5rem;
+    width: 50%;
+    padding-left: .5rem;
 }
 
 .featured-content h2 {
@@ -98,10 +105,6 @@ a {
 
 .info li {
   padding: 1.5rem;
-}
-
-.info h2 {
-  text-align: center;
 }
 
 .button a {
@@ -151,6 +154,21 @@ footer ul {
 
 @media only screen and (min-width: 25em) {
 
+  .info h2 {
+    text-align: center;
+  }
+
+  .featured-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .store-content h2 {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -158,6 +176,21 @@ footer ul {
   html {
     line-height: 1.4;
     font-size: 110%;
+  }
+
+  .banner {
+    display: block;
+  }
+
+  .banner img {
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
 }
