@@ -310,12 +310,26 @@ footer ul {
     justify-content: space-between;
   }
 
+  dl li {
+    width: 33%;
+  }
+
+  dl li:last-child {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .featured-content p {
+    margin-top: 5em;
+  }
+
   }
 
 }
