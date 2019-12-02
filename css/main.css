@@ -285,6 +285,31 @@ footer ul {
     width: 100%;
   }
 
+  .featured-content {
+    text-align: center;
+  }
+
+  .featured-content h2 {
+    background-color: #e125ce;
+    border: 5px solid #fff;
+    padding: 2em;
+    text-decoration: underline;
+  }
+
+  .people-image {
+    width: 48%;
+    padding: 1em;
+  }
+
+  .extra-image {
+    width: 48%;
+    padding: 1em;
+  }
+
+  .images {
+    justify-content: space-between;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
