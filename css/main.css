@@ -104,21 +104,49 @@ a {
   text-align: center;
 }
 
-.info .button {
+.button a {
   text-align: center;
   background-color: #dab0d6;
+  color: #fff;
+  width: 75%;
+  padding: .5em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.button a:hover {
+  background-color: #fff;
+  color: #fb57eb;
 }
 
 footer {
   display: flex;
-  width: 98%;
+  width: 100%;
   font-size: .7em;
   background-color: #f6cbf1;
+  position: relative;
 }
 
 footer ul {
   list-style-type: none;
   padding: 0;
+}
+
+.social li {
+  max-width: 3em;
+  margin: 1.5em;
+}
+
+.socials {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.information {
+  padding-left: 1.5em;
 }
 
 @media only screen and (min-width: 25em) {
