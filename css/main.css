@@ -179,18 +179,64 @@ footer ul {
   }
 
   .banner {
-    display: block;
-  }
-
-  .banner img {
+    display: flex;
     position: relative;
   }
 
   h1 {
     position: absolute;
+    top: 4em;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+  }
+
+  .featured-content {
+    align-items: center;
+    justify-content: center;
+    padding: 0 2em;
+  }
+
+  .in-store {
+    position: relative;
+  }
+
+  .store-content {
+    position: absolute;
+    bottom: .1em;
+    left: .1em;
+  }
+
+  .people-image {
+    width: 50%;
+  }
+
+  .extra-image {
+    width: 50%;
+  }
+
+  .images {
+    display: flex;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  dl li {
+    width: 50%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  dl h2 {
+    margin-top: 0;
+  }
+
+  dl li:last-child {
+    margin: 0 25%;
   }
 
 }
