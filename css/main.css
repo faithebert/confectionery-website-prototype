@@ -238,9 +238,10 @@ footer ul {
   .info {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 2.5em;
   }
 
-  dl li {
+  .cards {
     width: 50%;
     align-content: center;
     display: flex;
@@ -248,19 +249,16 @@ footer ul {
     justify-content: space-between;
   }
 
-  dl li:first-child {
-    display: flex;
-  }
-
-  dl li:first-child p {
+  .cards:first-child p {
     margin-top: 0;
+    margin-bottom: 3em;
   }
 
-  dl li:first-child h2 {
+  .cards:first-child h2 {
     margin-bottom: 0;
   }
 
-  dl li:last-child {
+  .cards:last-child {
     margin: 0 25%;
   }
 
@@ -313,12 +311,16 @@ footer ul {
     justify-content: space-between;
   }
 
-  dl li {
+  dl .cards {
     width: 33%;
   }
 
-  dl li:last-child {
+  .cards:last-child {
     margin: 0;
+  }
+
+  .cards:last-child p {
+    margin-bottom: 6em;
   }
 
 }
@@ -332,8 +334,6 @@ footer ul {
   .featured-content {
     font-size: 2em;
   }
-
-
 
   }
 
