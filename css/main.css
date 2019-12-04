@@ -254,7 +254,7 @@ footer ul {
     margin-bottom: 3em;
   }
 
-  .cards:first-child h2 {
+  .cards:first-child dt {
     margin-bottom: 0;
   }
 
