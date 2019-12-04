@@ -329,9 +329,11 @@ footer ul {
     font-size: 130%;
   }
 
-  .featured-content p {
-    margin-top: 5em;
+  .featured-content {
+    font-size: 2em;
   }
+
+
 
   }
 
