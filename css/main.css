@@ -103,9 +103,14 @@ a {
   list-style: none;
 }
 
-.info li {
+.info .cards {
   padding: 1.5rem;
   background-color: #fff3fe;
+}
+
+.cards dt {
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .button a {
@@ -155,7 +160,7 @@ footer ul {
 
 @media only screen and (min-width: 25em) {
 
-  .info h2 {
+  .info dt {
     text-align: center;
   }
 
@@ -300,11 +305,13 @@ footer ul {
   .people-image {
     width: 48%;
     padding: 1em;
+    display: inline-block;
   }
 
   .extra-image {
     width: 48%;
     padding: 1em;
+    display: inline-block;
   }
 
   .images {
@@ -333,8 +340,6 @@ footer ul {
 
   .featured-content {
     font-size: 2em;
-  }
-
   }
 
 }
