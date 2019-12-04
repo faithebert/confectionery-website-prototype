@@ -218,6 +218,9 @@ footer ul {
     position: absolute;
     bottom: .1em;
     left: .1em;
+    background-color: rgba(213, 188, 224, 0.33);
+    padding: 1em;
+    border-radius: 2em;
   }
 
   .people-image {
