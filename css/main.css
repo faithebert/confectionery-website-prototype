@@ -50,13 +50,13 @@ h1 {
   margin: 0;
 }
 
-.main-nav nav li {
+.main-nav li {
   text-align: left;
   padding: .5rem;
   border-top: 2px solid #bc5bb2;
 }
 
-.main-nav nav li:hover {
+.main-nav li:hover {
   background-color: #fff;
 }
 
