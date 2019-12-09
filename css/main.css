@@ -274,6 +274,7 @@ dd {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 350px;
   }
 
   .cards:first-child p {
@@ -287,6 +288,7 @@ dd {
 
   .cards:last-child {
     margin: 0 25%;
+    height: auto;
   }
 
 }
@@ -342,14 +344,20 @@ dd {
 
   dl .cards {
     width: 33%;
+    height: 375px;
   }
 
   .cards:last-child {
     margin: 0;
+    height: 375px;
   }
 
   .cards:last-child p {
-    margin-bottom: 6em;
+    margin-bottom: 5em;
+  }
+
+  .info {
+    padding: 2em;
   }
 
 }
@@ -362,6 +370,10 @@ dd {
 
   .featured-content {
     font-size: 2em;
+  }
+
+  .socials ul {
+    padding: 2em;
   }
 
 }
