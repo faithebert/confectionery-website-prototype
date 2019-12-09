@@ -275,6 +275,7 @@ dd {
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
+    border: 1px solid #52003d;
   }
 
   .cards:first-child p {
