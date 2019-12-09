@@ -266,7 +266,6 @@ dd {
   .info {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 2.5em;
   }
 
   .cards {
