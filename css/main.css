@@ -52,12 +52,17 @@ h1 {
 
 .main-nav li {
   text-align: left;
-  padding: .5rem;
   border-top: 2px solid #bc5bb2;
+  padding: .5em;
 }
 
-nav li:hover {
+.main-nav a {
+  padding: .5em;
+}
+
+nav a:hover {
   background-color: #fff;
+  display: flex;
 }
 
 a {
@@ -95,15 +100,22 @@ a {
   margin-top: 0;
 }
 
+.store-content ul {
+  list-style-type: circle;
+}
+
 .extra-image, .people-image {
   padding-top: 1em;
 }
 
 .info {
   list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.info .cards {
+.cards {
   padding: 1.5rem;
   background-color: #fff3fe;
 }
@@ -146,12 +158,12 @@ footer ul {
 
 .social li img {
   max-width: 3em;
-  margin: 1em;
+  margin: .5em;
 }
 
 .socials ul {
   position: absolute;
-  bottom: .2em;
+  bottom: .1em;
   right: 1em;
 }
 
@@ -160,8 +172,18 @@ footer ul {
   margin: 0;
 }
 
+ul a:hover {
+  color: #52003d;
+  background-color: inherit;
+  padding: 0;
+}
+
 .information {
   padding-left: 1.5em;
+}
+
+dd {
+  margin-left: 0;
 }
 
 @media only screen and (min-width: 25em) {
