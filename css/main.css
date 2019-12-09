@@ -150,7 +150,7 @@ footer ul {
 
 .socials ul {
   position: absolute;
-  bottom: .5em;
+  bottom: .2em;
   right: 1em;
 }
 
@@ -163,11 +163,11 @@ footer ul {
   padding-left: 1.5em;
 }
 
-@media only screen and (min-width: 25em) {
+.cards dt {
+  text-align: center;
+}
 
-  .info dt {
-    text-align: center;
-  }
+@media only screen and (min-width: 25em) {
 
   .featured-content {
     display: flex;
