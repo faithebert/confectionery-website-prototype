@@ -50,13 +50,13 @@ h1 {
   margin: 0;
 }
 
-nav li {
+.main-nav nav li {
   text-align: left;
   padding: .5rem;
   border-top: 2px solid #bc5bb2;
 }
 
-nav li:hover {
+.main-nav nav li:hover {
   background-color: #fff;
 }
 
@@ -143,15 +143,20 @@ footer ul {
   padding: 0;
 }
 
-.social li {
+.social li img {
   max-width: 3em;
-  margin: 1.5em;
+  margin: 1em;
 }
 
-.socials {
+.socials ul {
   position: absolute;
-  bottom: 1em;
+  bottom: .5em;
   right: 1em;
+}
+
+.socials img {
+  padding: 0;
+  margin: 0;
 }
 
 .information {
