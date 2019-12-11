@@ -232,6 +232,11 @@ dd {
     flex-grow: 1;
   }
 
+  .main-nav a {
+    width: 100%;
+    text-align: center;
+  }
+
   .featured-content {
     align-items: center;
     justify-content: center;
@@ -244,8 +249,8 @@ dd {
 
   .store-content {
     position: absolute;
-    bottom: .1em;
-    left: .1em;
+    bottom: 1em;
+    left: 1em;
     background-color: rgba(213, 188, 224, .33);
     padding: 1em;
     border-radius: 2em;
