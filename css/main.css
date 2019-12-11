@@ -56,6 +56,10 @@ h1 {
   padding: .5em;
 }
 
+.main-nav ol:last-child {
+  border-bottom: 2px solid #bc5bb2;
+}
+
 .main-nav a {
   padding: .5em;
 }
@@ -68,10 +72,6 @@ nav a:hover {
 a {
   text-decoration: none;
   color: #bc5bb2;
-}
-
-.main-nav ol:last-child {
-  border-bottom: 2px solid #bc5bb2;
 }
 
 .featured-image {
@@ -126,6 +126,20 @@ a {
   text-align: center;
 }
 
+ul a:hover {
+  color: #52003d;
+  background-color: inherit;
+  padding: 0;
+}
+
+.information {
+  padding-left: 1.5em;
+}
+
+dd {
+  margin-left: 0;
+}
+
 .button a {
   text-align: center;
   background-color: #dab0d6;
@@ -170,20 +184,6 @@ footer ul {
 .socials img {
   padding: 0;
   margin: 0;
-}
-
-ul a:hover {
-  color: #52003d;
-  background-color: inherit;
-  padding: 0;
-}
-
-.information {
-  padding-left: 1.5em;
-}
-
-dd {
-  margin-left: 0;
 }
 
 @media only screen and (min-width: 25em) {
